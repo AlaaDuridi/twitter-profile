@@ -3,8 +3,6 @@ import {Button,Divider,Typography, Avatar, Box, Link, List, ListItem, Grid, useT
 import {HEADER_ITEMS} from '../../constants/header.constants';
 const NavigationMenu = () =>{
     const theme = useTheme();
-
-
     return (
 <Grid container direction='column' height={'90vh'} justifyContent={'space-between'} sx={{border:'2px solid red'}} p={theme.spacing(2)} >
 <Box>

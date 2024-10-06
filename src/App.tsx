@@ -1,9 +1,13 @@
 import './App.css'
-import NavigationMenu from "./components/NavigationMenu/NavigationMenu.tsx";
+import NavigationMenu from "./components/NavigationMenu";
+import Profile from "./components/Profile";
 function App() {
 
   return (
+      <>
       <NavigationMenu/>
+          <Profile/>
+      </>
         )
 
 }
