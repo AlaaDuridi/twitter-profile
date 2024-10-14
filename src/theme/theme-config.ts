@@ -25,10 +25,10 @@ export const themeOptions: ThemeOptions = {
             main: '#6c757d',
             light: '#adb5bd',
             dark: '#495057',
-            contrastText: '#000000',
+            contrastText: '#6c757d',
         },
         text: {
-            primary: '#1f2022',
+            primary: '#6c757d',
             secondary: '#ffffff',
             disabled: '#ced4da',
         },

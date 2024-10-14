@@ -1,5 +1,5 @@
 import { Grid, Avatar, Typography, IconButton, Box } from '@mui/material';
-import { ChatBubbleOutline, Repeat, FavoriteBorder, BarChart ,RepeatRounded } from '@mui/icons-material';
+import { ChatBubbleOutline,IosShare, Repeat, FavoriteBorder, BarChart ,RepeatRounded } from '@mui/icons-material';
 import {IPost}from '../../types/models/posts.model';
 import {FC} from 'react';
 interface IPostProps {
@@ -69,6 +69,10 @@ const Post :FC<IPostProps> = ({ post }) => {
                             <Typography variant="caption" sx={{ ml: 1 }}>
                                 {post.views}
                             </Typography>
+                        </IconButton>
+                        {/*share*/}
+                        <IconButton>
+                            <IosShare fontSize="small" />
                         </IconButton>
                     </Box>
                 </Grid>
